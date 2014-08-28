@@ -1,0 +1,24 @@
+Directorios CHC GA
+Archivo Makefile
+
+Incluirlos en /malva/rep/
+
+Agregar en malva/environment el conjunto de librerías std c++11
+"CPPFLAGS=-I$(MALLBA_INC) -Wno-deprecated -O3 -std=c++11"
+
+
+Para ejecutar los algoritmos propuestos:
+cd ~/malva
+make all
+cd ./rep/GA
+./run.sh
+
+
+Ejecuta todas las instacias con los parámetros de configuración propuestos en el archivo newGA.cfg.
+
+
+Repositorio GIT:
+git clone https://github.com/leokraken/ae.git --single-branch 
+
+
+Copiar los archivos del directorio ./ae en ~/malva/rep
